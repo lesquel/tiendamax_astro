@@ -1,0 +1,28 @@
+<!-- ---
+interface Producto {
+	id: string
+	nombre: string
+	descripcion: string
+	precio: number
+	activo: boolean
+	estado_sincronizacion: string
+}
+type Productos = Producto[]
+
+const res = await fetch('http://localhost:8080/productos')
+const data: Productos = await res.json()
+console.log(data)
+--- -->
+
+<h1>Tienda Max</h1>
+
+
+
+<!-- {data.map(producto => (
+	<div>
+		<h2>{producto.nombre}</h2>
+		<p>{producto.descripcion}</p>
+		<p>Precio: {producto.precio}</p>
+		<p>Estado: {producto.estado_sincronizacion}</p>
+	</div>
+))} -->
